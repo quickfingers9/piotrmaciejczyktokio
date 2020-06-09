@@ -1,0 +1,88 @@
+<!Doctype html>
+<html lang="pl">
+<head>
+	<title>Galeria Tokio</title>
+	<meta charset=UTF-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		 <link rel="shortcut icon" href="img/ikona.png">
+	</head>
+	<body>
+	<div class="article">
+<div class="header"><a href="index.html"><img class="logo" src=img/logo.png  /></a><h1>Galeria Tokio ギャラリー </h1></div>
+<ul class="ul">
+  <li><a class="active" href="index.html">Strona Główna</a></li>
+  <li><a href="media.html">Media</a></li>
+  <li><a href="galeria.html">Galeria</a></li>
+  <li><a href="mapa.html">Mapa</a></li>
+      <li><a href="Symbole.html">Symbole</a></li>
+  <a id="gora" >
+</ul>
+<div class="center">
+<h2>Galeria Tokio</h2>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img class="foto1" src="img/tk.jpg" >
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img class="foto1" src="img/tk1.jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img class="foto1" src="img/z.jpg">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img class="foto1" src="img/tk2.jpg">
+</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img class="foto1" src="img/z2.jpg"> 
+</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+   <span class="dot"></span> 
+<span class="dot"></span> 
+</div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+	<div class="foot">Autor strony: Piotr Maciejczyk 2tb</div>
+</div>
+	</body>
+	</html>
