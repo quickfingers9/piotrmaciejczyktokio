@@ -21,112 +21,34 @@
   </a>
   <a id="gora" >
 </div>
-<div class="lewo">
-<div class="dropdown">
-<div class="fixed">
-  <button class="dropbtn">~Spis treści~</button>
-  <div class="dropdown-content">
-    <a href="#mewa" >Mewa śmieszka</a>
-    <a href="#wisnia" >
-	Wiśnia</a>
-    <a href="#milorzab" >Miłorząb dwuklapowy</a>
-	<a href="#galeria" >Galeria</a>
-	<a href="#gora" >Powrót do góry</a>
-  </div>
+<div class="lewo1000">
+<ul>
+<li><a href="#mewa">Mewa śmieszka</a></li>
+<li><a href="#wisnia">Wiśnia</a></li>
+<li><a href="#milorzab">Miłorząb dwuklapowy</a></li>
+</ul>
 </div>
-</div>
-</div>
-<div class="text">
-<a id="mewa">
-<h3>Mewa śmieszka</h3>
+<div class="text1000">
+<h3>Mewa śmieszka <a id="mewa"></h3>
 Zwana po prostu śmieszką, to gatunek mewy wielkości gołębia. Jest bardzo pospolita. Skrzydła są ostro zakończone, wąskie. Głowa brązowa, sięgająca tylko potylicy. Obok oczy małe białe plamki. Wierzch jest biało-srebrzysty. Ogon i kuper są białe. Lotki są czarne z wierzchu poza ich przednimi krawędziami. Głowa w szacie spoczynkowej jest biała z niewielkimi ciemnymi plamami w okolicy pokryw usznych i oczu, a także czasami na wierzchu głowy. Młode osobniki są początkowo brązowo-szare z wierzchu i na głowie, mają brunatny dziób, żółciejący w zimie, czerwony u osobników dorosłych. Podobnie zmienny jest kolor nóg. Szata osobnika dorosłego kształtuje się w ciągu 2 lat.
 <br><br>
-<a id="wisnia">
-<h3>Wiśnia</h3>
+<img class ="foto" src=img/3.jpg alt="Tokio" title="Tokio"/>
+<h3>Wiśnia <a id="wisnia"></h3>
  rodzaj roślin należący do rodziny różowatych (Rosaceae). Występuje w około 60 gatunkach w strefie umiarkowanej półkuli północnej, głównie we wschodniej Azji. W Polsce w stanie naturalnym występują tylko dwa gatunki wiśni: wiśnia karłowata, rosnąca na wyżynach południowych, prawnie chroniona, oraz wiśnia ptasia, zwana trześnią.
 <br><br>
-<a id="milorzab">
-<h3>Miłorząb dwuklapowy</h3>
- gatunek drzewa należącego do rodziny miłorzębowatych. Pochodzi z Chin. Obecnie jest gatunkiem zagrożonym na stanowiskach naturalnych. Miłorząb dwuklapowy podobny jest do kopalnego gatunku Ginkgo adiantoides. Czasami używana nazwa miłorząb japoński jest myląca, gdyż gatunek ten nie występuje naturalnie w Japonii, a jedynie z tego kraju drzewo to po raz pierwszy trafiło do Europy.
+<img class ="foto" src=img/1.jpg alt="Tokio" title="Tokio"/>
+<br>
+ <a href="#gora" >powrót do góry</a>
  <br>
+<h3>Miłorząb dwuklapowy <a id="milorzab"></h3>
+ gatunek drzewa należącego do rodziny miłorzębowatych. Pochodzi z Chin. Obecnie jest gatunkiem zagrożonym na stanowiskach naturalnych. Miłorząb dwuklapowy podobny jest do kopalnego gatunku Ginkgo adiantoides. Czasami używana nazwa miłorząb japoński jest myląca, gdyż gatunek ten nie występuje naturalnie w Japonii, a jedynie z tego kraju drzewo to po raz pierwszy trafiło do Europy.
+ <br><br>
+ <img class ="foto" src=img/2.jpg />
  <a href="#gora" >powrót do góry</a>
 </div>
-<div class="prawo">
-<div class="dropdown">
-<div class="fixed">
-  <button class="dropbtn">~Linki zewnętrzne~</button>
-  <div class="dropdown-content">
-    <a href="https://www.medianauka.pl/mewa-smieszka" target=_blank>Mewa śmieszka</a>
-    <a href="https://pl.wikipedia.org/wiki/Wi%C5%9Bnia" target=_blank>Wiśnia</a>
-    <a href="https://pl.wikipedia.org/wiki/Mi%C5%82orz%C4%85b_dwuklapowy" target=_blank>Miłorząb dwuklapowy</a>
-  </div>
-</div>
-</div>
-</div>
-<div class="center">
-<a id="galeria">
-<h2>Symbole Japonii</h2>
-<div class="slideshow-container">
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img class="foto2" src="img/1.jpg">
-  <div class="text1">drzewo wiśni </div>
-</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img class="foto2" src="img/3.jpg" >
-  <div class="text1">mewa śmieszka</div>
-</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img class="foto2" src="img/2.jpg">
-  <div class="text1">miłorząb dwuklapowy</div>
+	<footer class="foot">Autor strony: Piotr Maciejczyk 2tb</footer>
 </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-</div>
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
-</script>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<div class="foot">Autor strony: Piotr Maciejczyk 2tb</div>
-</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 	</body>
 	</html>

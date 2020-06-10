@@ -27,7 +27,7 @@
 
 <div class="lewo">
 <ul class="ankieta">
-<li><a href="ankieta/ankieta.html">Podziel się swoją opinią!</a></li>
+<li><a href="#ankieta">Podziel się swoją opinią!</a></li>
 </ul>
 </div>
 <div class="text">
@@ -76,13 +76,50 @@ Znajdują się tutaj: Tokyo Skytree, Pałac Cesarski, zabytkowe świątynie budd
 W 2018 Tokio odwiedziło 12,12 mln turystów z całego świata – było dziewiątym najczęściej odwiedzanym miastem na świecie.</p>
 <br><br>
  <a id="herb" >
-<h2>Herb Tokio</h2>
+<h2 class="h2ank">Herb Tokio</h2>
 <img class="foto" src="img/herb.png"  />
 <br>
 <br>
-<h2>Flaga Tokio</h2>
+<h2 class="h2ank">Flaga Tokio</h2>
  <a id="flaga" >
 <img class="foto" src="img/flaga.png"  />
+<a id="ankieta">
+<form>
+<div class="textank">				
+<h3 class="h3ank">Podaj płeć</h3>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Mężczyzna</label><br> 
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Kobieta</label><br>
+					
+<br>
+<h3 class="h3ank">Podaj swój wiek:</h3>
+<input type="number" id="quantity3" name="quantity3" min="1" max="100" step="1" required="">
+					
+<br><br>
+				
+
+<h3 class="h3ank">Czy byłeś/aś w Tokio?</h3>
+<label ><input type="radio" name="k"> Tak</label><br>
+<label ><input type="radio" name="k"> Nie</label><br>
+					
+<h3 class="h3ank"> Czy podobała ci się strona?</h3>
+<input type="radio" id="tak" name="o" value="tak" >
+<label for="tak">Tak</label><br>
+<input type="radio" id="nie" name="o" value="nie">
+<label for="nie">Nie</label><br><br>
+			
+					
+<label for="email">Wpisz swój adres email:</label>
+<input type="email" id="email" name="email" required=""><br><br>
+				
+<button type="submit" onclick="alert('Uwaga! Silne przegrzanie procesora! Włóż komputer do wody!')">Wyślij ankietę</button>
+<button type="reset">Wyczyść ankietę</button>
+				
+</form>
+<div>
+</div>
+</div>
 <a href="#gora" >powrót do góry</a>
  </div>
  <div class="prawo">
@@ -91,9 +128,18 @@ W 2018 Tokio odwiedziło 12,12 mln turystów z całego świata – było dziewi�
 <br><br>
 <li><a href="#flaga" >flaga</a></li>
 </ol>
-
+<div class="dropdown">
+<div class="fixed">
+  <button class="dropbtn">~Linki zewnętrzne~</button>
+  <div class="dropdown-content">
+    <a href="https://www.accuweather.com/pl/jp/tokyo/226396/weather-forecast/226396" target=_blank>Pogoda w Tokio</a>
+    <a href="https://pl.tripadvisor.com/Attractions-g298184-Activities-Tokyo_Tokyo_Prefecture_Kanto.html" target=_blank>Atrakcje Turystyczne w Tokio</a>
+    <a href="https://www.japan-guide.com/e/e2164.html" target=_blank>Przewodnik po Tokio</a>
+  </div>
 </div>
-	<div class="foot">Autor strony: Piotr Maciejczyk 2tb</div>
+</div>
+</div>
+	<footer class="foot">Autor strony: Piotr Maciejczyk 2tb</footer>
 </div>
 </div>
 </div>
