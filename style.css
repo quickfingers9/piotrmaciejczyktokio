@@ -137,20 +137,6 @@ td
 	border-width:medium;
 	text-align: center;
 }
-.map
-{
-	width:500;
-	height:500;
-	background-color: lightblue;
-	text-align:center;
-    float: center;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 20px;
-	font-family: monospace;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
 .center
 {  float:right;
 margin-right:25%;
@@ -275,6 +261,11 @@ margin-right:25%;}
 margin-left:10%;
 margin-right:10%;
 }
+.srodek1
+{ 
+margin-left:10%;
+margin-right:10%;
+}
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -379,6 +370,11 @@ img {vertical-align: middle;}
     display: block;
   }
 }
+.map100
+{text-align:center;
+}
+.h3100
+{text-align:center;
 .foto100
 {width:500px;
 height:700px;}
