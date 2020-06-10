@@ -10,14 +10,17 @@
 	<body>
 	<div class="article">
 <div class="header"><a href="index.html"><img class="logo" src=img/logo.png  /></a><h1>Symbole Japoni シンボルー </h1></div>
-<ul class="ul">
-  <li><a class="active" href="index.html">Strona Główna</a></li>
-  <li><a href="media.html">Media</a></li>
-  <li><a href="galeria.html">Galeria</a></li>
-  <li><a href="mapa.html">Mapa</a></li>
-      <li><a href="Symbole.html">Symbole</a></li>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Strona Główna</a>
+  <a href="media.html">Media</a>
+  <a href="galeria.html">Galeria</a>
+  <a href="mapa.html">Mapa</a>
+  <a href="Symbole.html">Symbole</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   <a id="gora" >
-</ul>
+</div>
 <div class="lewo">
 <div class="dropdown">
 <div class="fixed">
@@ -114,5 +117,15 @@ function showSlides() {
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="foot">Autor strony: Piotr Maciejczyk 2tb</div>
 </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 	</body>
 	</html>

@@ -24,3 +24,6 @@
 [0609/112737.746:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
 [0609/112737.756:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
 [0609/112737.756:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0610/020733.627:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0610/020733.636:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[0610/020733.637:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
