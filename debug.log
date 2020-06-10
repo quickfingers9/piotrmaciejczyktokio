@@ -36,3 +36,10 @@
 [0610/041556.225:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
 [0610/041556.233:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
 [0610/041556.234:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0610/114543.627:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0610/114543.646:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[0610/114543.647:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0610/120619.175:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0610/120619.176:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0610/120619.184:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[0610/120619.185:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Goldleaf\Reports\Dump: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
