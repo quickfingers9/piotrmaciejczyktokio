@@ -160,7 +160,7 @@ img {vertical-align: left;}
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin:auto ;
 }
 .prev, .next {
   cursor: pointer;
@@ -246,7 +246,8 @@ height:80vh;}
 }
 .center
 {  float:right;
-margin-right:500px;}
+margin-right:25%;
+margin-left:10%;}
 .left
 {float:left;}
 h2
@@ -318,6 +319,10 @@ background-color: red;}
 .foto1
 {height:500px;
 width:700px;}
+.foto2
+{height:500px;
+width:700px;
+border-radius:20%;}
 h3
 {text-align:center;}
 .fixed{
@@ -351,6 +356,15 @@ position:fixed;
 .topnav .icon {
   display: none;
 }
+.galeria
+{float:center;
+	margin-left:31%;
+margin-right:25%;}
+.srodek
+{ 
+margin-left:10%;
+margin-right:10%;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -375,14 +389,71 @@ position:fixed;
 }
 @media screen and (max-width:600px) {
 .ul{font-size:10px;}
+h1{font-size:28px;}
+.text5
+{margin-left:0px;
+width:100%;}
 h2
-{font-size:24px;)
+{font-size:30px;)
 }
 .mapa
-{font-size:50px;
+{font-size:60px;
 }
-.mapaa
-{font-size:24px;}
-}
+
 .iiii
 {font-size:30px;}
+.sim
+{font-size:22px;}
+table
+{font-size:12px;}
+.ankieta
+{margin-left:-50px;
+font-size:15px;}
+.text
+{margin-left:-12px;
+font-size:16px;
+text-align:justify;}
+.jd
+{font-size:17px;}
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+	h1
+	{font-size:34px;}
+	.mapa
+	{font-size:60px;}
+	.iiii
+	{font-size:30px;}
+	.text5
+{margin-left:0px;
+width:100%;}
+table
+{font-size:18px;}
+.ankieta
+{margin-left:-10px;
+font-size:20px;}
+.text
+{margin-left:-0px;
+font-size:22px;
+text-align:justify;}
+.jd
+{font-size:25px;}
+}
+@media screen and (min-width: 769px)  {
+	.text5
+	{margin-left:0px;
+width:100%;}
+table
+{font-size:24px;}
+.ankieta
+{margin-left:0px;
+font-size:26px;}
+.text
+{margin-left:10px;
+font-size:24px;
+text-align:justify;
+}
+.jd
+{font-size:30px;}
+}
+}
+	
