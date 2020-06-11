@@ -474,7 +474,8 @@ h1{font-size:28px;}
 {margin-left:0px;
 width:100%;}
 h2
-{font-size:30px;)
+{font-size:30px;
+background-color:red;
 }
 .mapa
 {font-size:60px;
@@ -485,14 +486,18 @@ h2
 .sim
 {font-size:22px;}
 table
-{font-size:12px;}
+{font-size:12px;
+background-color:red}
 .ankieta
 {margin-left:-50px;
-font-size:15px;}
+font-size:15px;
+color:green;}
 .text
 {margin-left:-12px;
 font-size:16px;
-text-align:justify;}
+text-align:justify;
+color:purple;
+background-color:#ecbb93}
 .jd
 {font-size:17px;}
 
@@ -573,9 +578,14 @@ background-color:#a1517f;
 }
 .text1000
 {font-size:15px;
-}
+background-color: lightpink;}
+
+li a {color:blue;
+text-shadow: 2px 2px grey;}
 }
 @media screen and (min-width: 601px) and (max-width: 768px) {
+h2
+{background-color:lime;}
 h1
 {font-size:34px;}
 .mapa
@@ -586,14 +596,18 @@ h1
 {margin-left:0px;
 width:100%;}
 table
-{font-size:18px;}
+{font-size:18px;
+background-color:lime;
+color:black;
+}
 .ankieta
 {margin-left:-10px;
 font-size:20px;}
 .text
 {margin-left:-0px;
 font-size:22px;
-text-align:justify;}
+text-align:justify;
+background-color:#e59393}
 .jd
 {font-size:25px;}
 
@@ -621,13 +635,19 @@ background-color:#a1517f;
 	font-size: 18px;
 	text-align: center;
 }
+li a {color:white;
+text-shadow: 3px 2px red;}
+.text1000
+{background-color: lightgrey;
+}
 }
 @media screen and (min-width: 769px)  {
-	.text5
+.text5
 {margin-left:0px;
 width:100%;}
 table
-{font-size:24px;}
+{font-size:24px;
+}
 .ankieta
 {margin-left:0px;
 font-size:26px;}
@@ -638,6 +658,9 @@ text-align:justify;
 }
 .jd
 {font-size:30px;}
+
+li a {color:lightblue;
+text-shadow: 3px 2px orange;}
 }
-}
+
 	
